@@ -1,0 +1,44 @@
+Jan 28 11:11:46.452 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 28 11:11:46.452 HYPERVISOR: Started on IP = localhost, TCP port = 64197.
+Jan 28 11:11:46.922 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 28 11:11:46.922 HYPERVISOR: exec_cmd: hypervisor working_dir \\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips 
+Jan 28 11:11:46.922 GENERAL: working_dir=\\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips
+Jan 28 11:11:46.922 HYPERVISOR: exec_cmd: hypervisor working_dir \\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips\42cf43ae-0988-4119-b67b-11abbfe05cdb 
+Jan 28 11:11:46.922 GENERAL: working_dir=\\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips\42cf43ae-0988-4119-b67b-11abbfe05cdb
+Jan 28 11:11:46.936 HYPERVISOR: exec_cmd: vm create R8 8 c7200 
+Jan 28 11:11:46.936 VM: VM R8 created.
+Jan 28 11:11:46.936 HYPERVISOR: exec_cmd: vm set_con_tcp_port R8 5007 
+Jan 28 11:11:46.936 HYPERVISOR: exec_cmd: c7200 get_mac_addr R8 
+Jan 28 11:11:46.936 HYPERVISOR: exec_cmd: vm get_status R8 
+Jan 28 11:11:46.936 HYPERVISOR: exec_cmd: vm slot_add_binding R8 0 0 C7200-IO-FE 
+Jan 28 11:11:46.952 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/hanna/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.bin 
+Jan 28 11:11:46.952 HYPERVISOR: exec_cmd: vm set_exec_area R8 64 
+Jan 28 11:11:46.952 HYPERVISOR: exec_cmd: vm set_nvram R8 512 
+Jan 28 11:11:46.952 HYPERVISOR: exec_cmd: vm set_disk0 R8 0 
+Jan 28 11:11:46.952 HYPERVISOR: exec_cmd: vm get_status R8 
+Jan 28 11:11:46.952 HYPERVISOR: exec_cmd: vm slot_add_binding R8 1 0 PA-2FE-TX 
+Jan 28 11:11:47.077 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/hanna/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.bin 
+Jan 28 11:11:48.468 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/hanna/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.bin 
+Jan 28 11:12:33.665 HYPERVISOR: exec_cmd: nio create_udp udp-ad97eea8-42ac-4b74-b9ff-c0b375a983d7 10022 127.0.0.1 10023 
+Jan 28 11:12:34.540 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 1 0 udp-ad97eea8-42ac-4b74-b9ff-c0b375a983d7 
+Jan 28 11:12:34.540 HYPERVISOR: exec_cmd: vm get_status R8 
+Jan 28 11:14:14.763 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/hanna/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.bin 
+Jan 28 11:14:31.186 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/hanna/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.bin 
+Jan 28 11:15:32.262 HYPERVISOR: exec_cmd: vm set_ghost_status R8 2 
+Jan 28 11:15:32.262 HYPERVISOR: exec_cmd: vm set_ghost_file R8 \\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips\c7200-adventerprisek9-mz.152-4.M11.bin-256.ghost 
+Jan 28 11:15:32.262 HYPERVISOR: exec_cmd: vm get_status R8 
+Jan 28 11:15:32.262 HYPERVISOR: exec_cmd: vm set_config R8 configs\i8_startup-config.cfg 
+Jan 28 11:15:32.262 HYPERVISOR: exec_cmd: vm start R8 
+Jan 28 11:15:40.809 HYPERVISOR: exec_cmd: vm get_status R8 
+Jan 28 11:15:40.809 HYPERVISOR: exec_cmd: vm stop R8 
+Jan 28 11:15:40.919 VM: VM R8 shutdown.
+Jan 28 11:15:40.919 HYPERVISOR: exec_cmd: vm extract_config R8 
+Jan 28 11:16:11.678 HYPERVISOR: exec_cmd: vm set_ghost_status R8 2 
+Jan 28 11:16:11.678 HYPERVISOR: exec_cmd: vm set_ghost_file R8 \\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips\c7200-adventerprisek9-mz.152-4.M11.bin-256.ghost 
+Jan 28 11:16:11.678 HYPERVISOR: exec_cmd: vm get_status R8 
+Jan 28 11:16:11.678 HYPERVISOR: exec_cmd: vm set_config R8 configs\i8_startup-config.cfg 
+Jan 28 11:16:11.678 HYPERVISOR: exec_cmd: vm start R8 
+Jan 28 11:16:20.248 HYPERVISOR: exec_cmd: vm get_status R8 
+Jan 28 11:16:20.248 HYPERVISOR: exec_cmd: vm stop R8 
+Jan 28 11:16:20.358 VM: VM R8 shutdown.
+Jan 28 11:16:20.373 HYPERVISOR: exec_cmd: vm extract_config R8 

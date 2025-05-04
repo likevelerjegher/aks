@@ -1,0 +1,47 @@
+Jan 28 11:11:37.826 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 28 11:11:37.826 HYPERVISOR: Started on IP = localhost, TCP port = 64178.
+Jan 28 11:11:38.326 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 28 11:11:38.326 HYPERVISOR: exec_cmd: hypervisor working_dir \\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips 
+Jan 28 11:11:38.326 GENERAL: working_dir=\\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips
+Jan 28 11:11:38.326 HYPERVISOR: exec_cmd: hypervisor working_dir \\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips\be6eeb60-ccc8-4580-ba81-13da193685ab 
+Jan 28 11:11:38.326 GENERAL: working_dir=\\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips\be6eeb60-ccc8-4580-ba81-13da193685ab
+Jan 28 11:11:38.326 HYPERVISOR: exec_cmd: vm create R6 6 c7200 
+Jan 28 11:11:38.326 VM: VM R6 created.
+Jan 28 11:11:38.326 HYPERVISOR: exec_cmd: vm set_con_tcp_port R6 5005 
+Jan 28 11:11:38.326 HYPERVISOR: exec_cmd: c7200 get_mac_addr R6 
+Jan 28 11:11:38.326 HYPERVISOR: exec_cmd: vm get_status R6 
+Jan 28 11:11:38.326 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 0 C7200-IO-FE 
+Jan 28 11:11:38.342 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/hanna/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.bin 
+Jan 28 11:11:38.342 HYPERVISOR: exec_cmd: vm set_exec_area R6 64 
+Jan 28 11:11:38.342 HYPERVISOR: exec_cmd: vm set_nvram R6 512 
+Jan 28 11:11:38.342 HYPERVISOR: exec_cmd: vm set_disk0 R6 0 
+Jan 28 11:11:38.342 HYPERVISOR: exec_cmd: vm get_status R6 
+Jan 28 11:11:38.342 HYPERVISOR: exec_cmd: vm slot_add_binding R6 1 0 PA-2FE-TX 
+Jan 28 11:11:38.420 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/hanna/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.bin 
+Jan 28 11:11:40.107 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/hanna/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.bin 
+Jan 28 11:11:54.221 HYPERVISOR: exec_cmd: nio create_udp udp-109e3973-3829-4f6b-9681-06258dea866b 10002 127.0.0.1 10003 
+Jan 28 11:11:54.692 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 0 0 udp-109e3973-3829-4f6b-9681-06258dea866b 
+Jan 28 11:11:54.692 HYPERVISOR: exec_cmd: vm get_status R6 
+Jan 28 11:12:04.934 HYPERVISOR: exec_cmd: nio create_udp udp-d0f42172-d012-4a99-a20b-876823bf4ba7 10008 127.0.0.1 10009 
+Jan 28 11:12:04.934 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 1 0 udp-d0f42172-d012-4a99-a20b-876823bf4ba7 
+Jan 28 11:12:04.934 HYPERVISOR: exec_cmd: vm get_status R6 
+Jan 28 11:13:56.183 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/hanna/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.bin 
+Jan 28 11:14:11.639 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/hanna/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.bin 
+Jan 28 11:15:31.965 HYPERVISOR: exec_cmd: vm set_ghost_status R6 2 
+Jan 28 11:15:31.965 HYPERVISOR: exec_cmd: vm set_ghost_file R6 \\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips\c7200-adventerprisek9-mz.152-4.M11.bin-256.ghost 
+Jan 28 11:15:31.965 HYPERVISOR: exec_cmd: vm get_status R6 
+Jan 28 11:15:31.980 HYPERVISOR: exec_cmd: vm set_config R6 configs\i6_startup-config.cfg 
+Jan 28 11:15:31.980 HYPERVISOR: exec_cmd: vm start R6 
+Jan 28 11:15:40.622 HYPERVISOR: exec_cmd: vm get_status R6 
+Jan 28 11:15:40.622 HYPERVISOR: exec_cmd: vm stop R6 
+Jan 28 11:15:40.763 VM: VM R6 shutdown.
+Jan 28 11:15:40.763 HYPERVISOR: exec_cmd: vm extract_config R6 
+Jan 28 11:16:11.350 HYPERVISOR: exec_cmd: vm set_ghost_status R6 2 
+Jan 28 11:16:11.350 HYPERVISOR: exec_cmd: vm set_ghost_file R6 \\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips\c7200-adventerprisek9-mz.152-4.M11.bin-256.ghost 
+Jan 28 11:16:11.350 HYPERVISOR: exec_cmd: vm get_status R6 
+Jan 28 11:16:11.365 HYPERVISOR: exec_cmd: vm set_config R6 configs\i6_startup-config.cfg 
+Jan 28 11:16:11.365 HYPERVISOR: exec_cmd: vm start R6 
+Jan 28 11:16:20.092 HYPERVISOR: exec_cmd: vm get_status R6 
+Jan 28 11:16:20.092 HYPERVISOR: exec_cmd: vm stop R6 
+Jan 28 11:16:20.233 VM: VM R6 shutdown.
+Jan 28 11:16:20.233 HYPERVISOR: exec_cmd: vm extract_config R6 

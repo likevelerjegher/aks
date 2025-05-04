@@ -1,0 +1,49 @@
+Jan 28 11:11:32.966 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 28 11:11:32.966 HYPERVISOR: Started on IP = localhost, TCP port = 64167.
+Jan 28 11:11:33.437 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 28 11:11:33.437 HYPERVISOR: exec_cmd: hypervisor working_dir \\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips 
+Jan 28 11:11:33.437 GENERAL: working_dir=\\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips
+Jan 28 11:11:33.437 HYPERVISOR: exec_cmd: hypervisor working_dir \\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips\da4b6bcc-478a-4d74-add8-f485bfc2f635 
+Jan 28 11:11:33.450 GENERAL: working_dir=\\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips\da4b6bcc-478a-4d74-add8-f485bfc2f635
+Jan 28 11:11:33.450 HYPERVISOR: exec_cmd: vm create R5 5 c7200 
+Jan 28 11:11:33.450 VM: VM R5 created.
+Jan 28 11:11:33.450 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 5004 
+Jan 28 11:11:33.466 HYPERVISOR: exec_cmd: c7200 get_mac_addr R5 
+Jan 28 11:11:33.466 HYPERVISOR: exec_cmd: vm get_status R5 
+Jan 28 11:11:33.466 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 0 C7200-IO-FE 
+Jan 28 11:11:33.466 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/hanna/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.bin 
+Jan 28 11:11:33.466 HYPERVISOR: exec_cmd: vm set_exec_area R5 64 
+Jan 28 11:11:33.466 HYPERVISOR: exec_cmd: vm set_nvram R5 512 
+Jan 28 11:11:33.466 HYPERVISOR: exec_cmd: vm set_disk0 R5 0 
+Jan 28 11:11:33.466 HYPERVISOR: exec_cmd: vm get_status R5 
+Jan 28 11:11:33.466 HYPERVISOR: exec_cmd: vm slot_add_binding R5 1 0 PA-2FE-TX 
+Jan 28 11:11:33.560 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/hanna/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.bin 
+Jan 28 11:11:35.013 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/hanna/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.bin 
+Jan 28 11:12:26.825 HYPERVISOR: exec_cmd: nio create_udp udp-733da79b-6b55-44c0-bee2-dd2e51882eb8 10016 127.0.0.1 10017 
+Jan 28 11:12:27.715 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 0 0 udp-733da79b-6b55-44c0-bee2-dd2e51882eb8 
+Jan 28 11:12:27.715 HYPERVISOR: exec_cmd: vm get_status R5 
+Jan 28 11:12:33.650 HYPERVISOR: exec_cmd: nio create_udp udp-1d82c57b-ad03-4ce7-9f92-fbb6090d94f3 10020 127.0.0.1 10021 
+Jan 28 11:12:33.650 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 1 0 udp-1d82c57b-ad03-4ce7-9f92-fbb6090d94f3 
+Jan 28 11:12:33.650 HYPERVISOR: exec_cmd: vm get_status R5 
+Jan 28 11:12:39.664 HYPERVISOR: exec_cmd: nio create_udp udp-38510677-2799-47fd-a412-fb90cf9685bb 10026 127.0.0.1 10027 
+Jan 28 11:12:39.664 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 1 1 udp-38510677-2799-47fd-a412-fb90cf9685bb 
+Jan 28 11:12:39.664 HYPERVISOR: exec_cmd: vm get_status R5 
+Jan 28 11:14:23.936 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/hanna/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.bin 
+Jan 28 11:15:31.965 HYPERVISOR: exec_cmd: vm set_ghost_status R5 2 
+Jan 28 11:15:31.965 HYPERVISOR: exec_cmd: vm set_ghost_file R5 \\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips\c7200-adventerprisek9-mz.152-4.M11.bin-256.ghost 
+Jan 28 11:15:31.965 HYPERVISOR: exec_cmd: vm get_status R5 
+Jan 28 11:15:31.965 HYPERVISOR: exec_cmd: vm set_config R5 configs\i5_startup-config.cfg 
+Jan 28 11:15:31.965 HYPERVISOR: exec_cmd: vm start R5 
+Jan 28 11:15:40.606 HYPERVISOR: exec_cmd: vm get_status R5 
+Jan 28 11:15:40.606 HYPERVISOR: exec_cmd: vm stop R5 
+Jan 28 11:15:40.794 VM: VM R5 shutdown.
+Jan 28 11:15:40.794 HYPERVISOR: exec_cmd: vm extract_config R5 
+Jan 28 11:16:11.350 HYPERVISOR: exec_cmd: vm set_ghost_status R5 2 
+Jan 28 11:16:11.350 HYPERVISOR: exec_cmd: vm set_ghost_file R5 \\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips\c7200-adventerprisek9-mz.152-4.M11.bin-256.ghost 
+Jan 28 11:16:11.350 HYPERVISOR: exec_cmd: vm get_status R5 
+Jan 28 11:16:11.350 HYPERVISOR: exec_cmd: vm set_config R5 configs\i5_startup-config.cfg 
+Jan 28 11:16:11.350 HYPERVISOR: exec_cmd: vm start R5 
+Jan 28 11:16:20.030 HYPERVISOR: exec_cmd: vm get_status R5 
+Jan 28 11:16:20.076 HYPERVISOR: exec_cmd: vm stop R5 
+Jan 28 11:16:20.295 VM: VM R5 shutdown.
+Jan 28 11:16:20.295 HYPERVISOR: exec_cmd: vm extract_config R5 

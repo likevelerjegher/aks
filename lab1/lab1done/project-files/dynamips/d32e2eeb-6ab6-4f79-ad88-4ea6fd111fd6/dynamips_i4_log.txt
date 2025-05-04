@@ -1,0 +1,50 @@
+Jan 28 11:11:23.289 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 28 11:11:23.289 HYPERVISOR: Started on IP = localhost, TCP port = 64155.
+Jan 28 11:11:23.761 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 28 11:11:23.761 HYPERVISOR: exec_cmd: hypervisor working_dir \\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips 
+Jan 28 11:11:23.761 GENERAL: working_dir=\\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips
+Jan 28 11:11:23.761 HYPERVISOR: exec_cmd: hypervisor working_dir \\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips\d409c448-61f1-421b-9632-a4b5c14d1a9a 
+Jan 28 11:11:23.761 GENERAL: working_dir=\\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips\d409c448-61f1-421b-9632-a4b5c14d1a9a
+Jan 28 11:11:23.761 HYPERVISOR: exec_cmd: vm create R4 4 c7200 
+Jan 28 11:11:23.774 VM: VM R4 created.
+Jan 28 11:11:23.774 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5003 
+Jan 28 11:11:23.774 HYPERVISOR: exec_cmd: c7200 get_mac_addr R4 
+Jan 28 11:11:23.774 HYPERVISOR: exec_cmd: vm get_status R4 
+Jan 28 11:11:23.774 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-FE 
+Jan 28 11:11:23.774 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/hanna/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.bin 
+Jan 28 11:11:23.774 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Jan 28 11:11:23.774 HYPERVISOR: exec_cmd: vm set_nvram R4 512 
+Jan 28 11:11:23.789 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Jan 28 11:11:23.789 HYPERVISOR: exec_cmd: vm get_status R4 
+Jan 28 11:11:23.789 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 PA-2FE-TX 
+Jan 28 11:11:23.867 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/hanna/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.bin 
+Jan 28 11:11:25.758 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/hanna/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.bin 
+Jan 28 11:11:28.850 HYPERVISOR: exec_cmd: vm get_status R4 
+Jan 28 11:11:54.706 HYPERVISOR: exec_cmd: nio create_udp udp-dc14081c-be1f-4c36-a102-1b27904aa150 10004 127.0.0.1 10005 
+Jan 28 11:11:55.034 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-dc14081c-be1f-4c36-a102-1b27904aa150 
+Jan 28 11:11:55.034 HYPERVISOR: exec_cmd: vm get_status R4 
+Jan 28 11:13:05.127 HYPERVISOR: exec_cmd: nio create_udp udp-fc219eda-5e80-4a15-9a04-2e238fb49848 10046 127.0.0.1 10047 
+Jan 28 11:13:05.127 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 0 udp-fc219eda-5e80-4a15-9a04-2e238fb49848 
+Jan 28 11:13:05.127 HYPERVISOR: exec_cmd: vm get_status R4 
+Jan 28 11:13:32.075 HYPERVISOR: exec_cmd: nio create_udp udp-f1d6dc86-adcf-4217-895f-e9da5cb37953 10056 127.0.0.1 10057 
+Jan 28 11:13:32.091 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 1 udp-f1d6dc86-adcf-4217-895f-e9da5cb37953 
+Jan 28 11:13:32.091 HYPERVISOR: exec_cmd: vm get_status R4 
+Jan 28 11:13:53.589 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/hanna/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.bin 
+Jan 28 11:15:31.949 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Jan 28 11:15:31.965 HYPERVISOR: exec_cmd: vm set_ghost_file R4 \\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips\c7200-adventerprisek9-mz.152-4.M11.bin-256.ghost 
+Jan 28 11:15:31.965 HYPERVISOR: exec_cmd: vm get_status R4 
+Jan 28 11:15:31.965 HYPERVISOR: exec_cmd: vm set_config R4 configs\i4_startup-config.cfg 
+Jan 28 11:15:31.965 HYPERVISOR: exec_cmd: vm start R4 
+Jan 28 11:15:40.591 HYPERVISOR: exec_cmd: vm get_status R4 
+Jan 28 11:15:40.591 HYPERVISOR: exec_cmd: vm stop R4 
+Jan 28 11:15:40.794 VM: VM R4 shutdown.
+Jan 28 11:15:40.794 HYPERVISOR: exec_cmd: vm extract_config R4 
+Jan 28 11:16:11.303 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Jan 28 11:16:11.318 HYPERVISOR: exec_cmd: vm set_ghost_file R4 \\mac\Home\Desktop\thirdYear\aks\lab1\lab1\project-files\dynamips\c7200-adventerprisek9-mz.152-4.M11.bin-256.ghost 
+Jan 28 11:16:11.318 HYPERVISOR: exec_cmd: vm get_status R4 
+Jan 28 11:16:11.318 HYPERVISOR: exec_cmd: vm set_config R4 configs\i4_startup-config.cfg 
+Jan 28 11:16:11.318 HYPERVISOR: exec_cmd: vm start R4 
+Jan 28 11:16:19.717 HYPERVISOR: exec_cmd: vm get_status R4 
+Jan 28 11:16:19.764 HYPERVISOR: exec_cmd: vm stop R4 
+Jan 28 11:16:20.076 VM: VM R4 shutdown.
+Jan 28 11:16:20.092 HYPERVISOR: exec_cmd: vm extract_config R4 
